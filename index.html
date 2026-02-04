@@ -1,21 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uxaura</title>
+    <title>Uxaura | Enterprise App Development & Branding</title>
+    <meta name="description" content="Premium mobile and web app development for visionary entrepreneurs.">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
-    <main class="container">
-        <header class="hero">
-            <h1 class="hero-title">Welcome to <span class="gradient-text">Uxaura</span></h1>
-            <p class="hero-subtitle">Crafting digital experiences with elegance and precision.</p>
-        </header>
+
+    <!-- Navigation -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Uxaura" style="height: 40px;">
+            </a>
+            <nav class="nav-links">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">Methodology</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Book Consultation</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="glow-bg"></div>
+            <div class="container hero-content">
+                <span class="hero-tag animate">Executive Digital Solutions</span>
+                <h1 class="hero-title animate delay-1">Transforming Vision<br>into Digital Reality.</h1>
+                <p class="hero-subtitle animate delay-2">We build institutional-grade mobile apps and craft premium
+                    brand identities for entrepreneurs who demand excellence, speed, and ROI.</p>
+                <div class="animate delay-3">
+                    <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                    <a href="#portfolio" class="btn btn-outline" style="margin-left: 1rem;">View Our Work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <div style="margin-bottom: 3rem;">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Our Expertise</h2>
+                    <p style="color: var(--text-secondary); max-width: 500px;">Precision engineering meets aesthetic
+                        perfection.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Card 1: App Development -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i data-lucide="smartphone"></i>
+                        </div>
+                        <h3 class="card-title">Custom App Development</h3>
+                        <p class="card-desc">High-performance iOS, Android, and Web applications built to scale. We use
+                            modern frameworks to deliver robust, secure, and intuitive digital products for your
+                            business operations.</p>
+                    </div>
+
+                    <!-- Card 2: Brand Identity -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i data-lucide="pen-tool"></i>
+                        </div>
+                        <h3 class="card-title">Premium Brand Identity</h3>
+                        <p class="card-desc">Strategic logo design and visual systems that command authority. We craft
+                            brands that resonate with high-level stakeholders and set you apart in the marketplace.</p>
+                    </div>
+
+                    <!-- Card 3: UX/UX Design -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i data-lucide="layout"></i>
+                        </div>
+                        <h3 class="card-title">Executive UI/UX</h3>
+                        <p class="card-desc">User interfaces designed for clarity and efficiency. We prioritize
+                            "time-to-value," creating streamlined workflows that busy executives and users appreciate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section" style="background: rgba(255,255,255,0.02);">
+            <div class="container">
+                <div style="display: flex; justify-content: space-between; align-items: end; margin-bottom: 3rem;">
+                    <div>
+                        <h2 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Selected Works</h2>
+                        <p style="color: var(--text-secondary);">Where strategy meets execution.</p>
+                    </div>
+                    <a href="#" style="color: var(--accent-primary); text-decoration: none; font-weight: 500;">View All
+                        Projects &rarr;</a>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Item 1 -->
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1000"
+                            alt="Fintech Dashboard" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-cat">Fintech</div>
+                            <h3 class="portfolio-title">Nova Capital Dashboard</h3>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000"
+                            alt="Brand Identity" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-cat">Branding</div>
+                            <h3 class="portfolio-title">Apex Logistics Rebrand</h3>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1000"
+                            alt="Mobile App" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-cat">Mobile App</div>
+                            <h3 class="portfolio-title">Velox Health Tracking</h3>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000"
+                            alt="Enterprise Web Platform" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-cat">Web Platform</div>
+                            <h3 class="portfolio-title">Stratosphere Analytics</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contact" class="cta-section">
+            <div class="container cta-box">
+                <h2 class="cta-title">Ready to Scale?</h2>
+                <p class="cta-text">Stop wasting time with average agencies. Partner with us to build digital assets
+                    that drive real business growth.</p>
+                <a href="#" class="btn btn-primary" style="font-size: 1.25rem; padding: 1.25rem 2.5rem;">Book a
+                    15-minute Discovery Call</a>
+                <p style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-secondary);">Direct access to
+                    founders. No sales teams.</p>
+            </div>
+        </section>
     </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2rem;">
+                <div style="font-weight: 700; font-size: 1.25rem; color: white;">
+                    Uxaura
+                </div>
+                <div style="display: flex; gap: 2rem;">
+                    <a href="#" style="color: inherit; text-decoration: none;">Privacy</a>
+                    <a href="#" style="color: inherit; text-decoration: none;">Terms</a>
+                    <a href="#" style="color: inherit; text-decoration: none;">LinkedIn</a>
+                </div>
+                <div>
+                    &copy; 2026 Uxaura Digital. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
 </body>
+
 </html>
