@@ -1,0 +1,3 @@
+## 2024-05-17 - Missing Keyboard Focus Indicators
+**Learning:** The entire application completely lacked focus indicators for interactive elements (links, buttons, etc.), rendering it largely inaccessible for keyboard-only users.
+**Action:** Always verify that a global `:focus-visible` outline is defined in the base stylesheet (e.g., `index.css`) utilizing the primary design token color to ensure consistent and obvious keyboard focus styling across all components.
